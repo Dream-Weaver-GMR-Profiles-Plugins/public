@@ -1,6 +1,6 @@
 local ID = "CR>DK/U"
 local LIB_LINK = "https://raw.githubusercontent.com/AmsTaFFix/gmr-stuff/main/backside/plugins/custom/00_amstlib.lua"
-local ROTATION_LINK = "{LINK TO ENCRYPTED VERSION}"
+local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/deathknight/unholy/v1/02_amstaffix_deathknight_unholy_rotation.gmr"
 ---@type DeathKnightUnholyV1Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
