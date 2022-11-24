@@ -78,7 +78,7 @@ do
                 local cr = amstlib:getCombatRotation(ID)
                 cr:prepare(Config)
                 printDbg("rotation has been prepared, start loading the file with rotation")
-                cr:load(ROTATION_LINK)
+                cr:loadEncrypted(ROTATION_LINK)
             end
         })
     else
