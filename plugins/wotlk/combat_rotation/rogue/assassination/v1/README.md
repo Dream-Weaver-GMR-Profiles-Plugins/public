@@ -12,7 +12,7 @@
 ## Installation
 - delete previous versions!
 - turn off all spells in Spells tab
-- download [01_amstaffix_rogue_assassination_loader.lua](????)
+- download [01_amstaffix_rogue_assassination_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/rogue/assassination/v1/01_amstaffix_rogue_assassination_loader.lua)
 - place downloaded file `01_amstaffix_rogue_assassination_loader.lua` into
   - HWT: `{HWT_Dir}/addons/Wrath of the Lichking/Plugins/`
   - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
