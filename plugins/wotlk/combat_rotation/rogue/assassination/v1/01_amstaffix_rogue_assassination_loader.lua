@@ -5,15 +5,25 @@ local ROTATION_LINK = ""
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
-    debug = true,
+    debug = false,
     ---Use standard CombatRotation pluggable function. Change only if you know what you are doing.
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
-    onlineLoad = false,
+    onlineLoad = true,
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
     useExposeArmorIfNecessary = true,
+
+    useFanOfKnivesMinEnemies = 6,
+
+    openFromStealth = true,
+    openFromStealthWithGarrote = true,
+    openFromStealthWithAmbush = true,
+    openFromStealthWithMutilate = false,
+
+    useColdBloodBeforeEnvenom = true,
+    useVanishToGetBuff = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
