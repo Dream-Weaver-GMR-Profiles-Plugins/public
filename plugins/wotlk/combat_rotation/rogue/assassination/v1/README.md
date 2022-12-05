@@ -21,13 +21,14 @@
 File has Config lua table with some tune options, you can change as you like
 
 ## Backlog
+- add `Kick` usage
 - add toggleable burst mode
-- add usage safe CDs (Evasion, Feint, Cloak of Shadows)
-- add usage of Tricks of the Trade
-- decide how to use Cheap Shot
-- decide how to use Dismantle
-- decide how to use Gouge
-- decide how to use Blind
+- add usage safe CDs (`Evasion`, `Feint`, `Cloak of Shadows`)
+- add usage of `Tricks of the Trade`
+- decide how to use `Cheap Shot`
+- decide how to use `Dismantle`
+- decide how to use `Gouge`
+- decide how to use `Blind`
 - add usage of engineer enchants
 
 ## Troubleshooting
