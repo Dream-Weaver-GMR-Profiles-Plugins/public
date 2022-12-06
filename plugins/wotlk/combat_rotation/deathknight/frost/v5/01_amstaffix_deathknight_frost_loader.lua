@@ -1,20 +1,3 @@
---This file is part of the AmsTaFFix' GMR plugins/profiles distribution
---(https://github.com/AmsTaFFix/gmr-stuff).
---Copyright (C) 2022 Nikita Sapogov
---
---This program is free software: you can redistribute it and/or modify
---it under the terms of the GNU General Public License as published by
---the Free Software Foundation, either version 3 of the License, or
---(at your option) any later version.
---
---This program is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
---GNU General Public License for more details.
---
---You should have received a copy of the GNU General Public License
---along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 local ID = "CR>DK/F"
 local LIB_LINK = "https://raw.githubusercontent.com/AmsTaFFix/gmr-stuff/main/backside/plugins/custom/00_amstlib.lua"
 local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/deathknight/frost/v5/02_amstaffix_deathknight_frost_rotation.gmr"
