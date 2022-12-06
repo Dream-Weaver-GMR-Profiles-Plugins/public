@@ -1,7 +1,7 @@
-local ID = "CR>R/A"
+local ID = "CR>R/C"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
-local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/rogue/assassination/v1/90_amstaffix_rogue_assassination_rotation.gmr"
----@type RogueAssassinationV1Config
+local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/rogue/combat/v1/90_amstaffix_rogue_combat_rotation.gmr"
+---@type RogueCombatV1Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
@@ -15,15 +15,13 @@ local Config = {
 
     useExposeArmorIfNecessary = false,
 
-    useFanOfKnivesMinEnemies = 6,
+    useFanOfKnivesMinEnemies = 4,
+
+    useBladeFlurryMinEnemies = 2,
 
     openFromStealth = true,
     openFromStealthWithGarrote = true,
     openFromStealthWithAmbush = true,
-    openFromStealthWithMutilate = false,
-
-    useColdBloodBeforeEnvenom = true,
-    useVanishToGetBuff = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
