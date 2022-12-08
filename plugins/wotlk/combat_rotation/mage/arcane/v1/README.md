@@ -6,7 +6,7 @@
 ## Installation
 - delete previous versions!
 - turn off all spells in Spells tab
-- download [01_amstaffix_mage_arcane_loader.lua](TODO)
+- download [01_amstaffix_mage_arcane_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/mage/arcane/v1/01_amstaffix_mage_arcane_loader.lua)
 - place downloaded file `01_amstaffix_mage_arcane_loader.lua` into
   - HWT: `{HWT_Dir}/addons/Wrath of the Lichking/Plugins/`
   - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
