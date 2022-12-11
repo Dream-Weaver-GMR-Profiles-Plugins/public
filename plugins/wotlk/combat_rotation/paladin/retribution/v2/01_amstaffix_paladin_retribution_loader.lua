@@ -1,6 +1,6 @@
-local ID = "CR>P/P"
+local ID = "CR>P/R"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
-local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/paladin/protection/v3/90_amstaffix_paladin_protection_rotation.gmr"
+local ROTATION_LINK = "TODO"
 ---@type PaladinProtectionV3Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
@@ -16,11 +16,8 @@ local Config = {
 
     groupCleanseModEnabled = false,
     useJudgmentType = 1, -- 1:Judgement of Light; 2:Judgement of Wisdom; 3:Judgement of Justice;
-    useJudgmentTryToCleave = false,
-    useJudgmentForDebuffOnly = false,
 
     useHandOfReckoningToMakeDamage = true,
-    useHandOfReckoningInInstance = true,
 
     defaultAuraToUse = 1, -- 1:Devotion Aura; 2:Retribution Aura; 3:Concentration Aura; 4:Shadow Resistance Aura; 5:Frost Resistance Aura; 6:Fire Resistance Aura
     defaultAuraChangeIfAlreadyExist = { 2, 3 }, -- 1:Devotion Aura; 2:Retribution Aura; 3:Concentration Aura; 4:Shadow Resistance Aura; 5:Frost Resistance Aura; 6:Fire Resistance Aura
@@ -33,11 +30,6 @@ local Config = {
 
     useBlessingOfFreedom = true,
 
-    groupBuffModEnabled = true,
-    groupBuffModMinMana = 70,
-
-    useAggroSpellsInGroup = true,
-    
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 
