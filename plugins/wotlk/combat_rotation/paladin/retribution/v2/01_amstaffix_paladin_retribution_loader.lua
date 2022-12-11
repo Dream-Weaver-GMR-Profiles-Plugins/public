@@ -1,6 +1,6 @@
 local ID = "CR>P/R"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
-local ROTATION_LINK = "TODO"
+local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/paladin/retribution/v2/90_amstaffix_paladin_retribution_rotation.gmr"
 ---@type PaladinProtectionV3Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
