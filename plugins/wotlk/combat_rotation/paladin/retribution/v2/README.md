@@ -22,7 +22,7 @@
   - Blessing of freedom
   - Hand Of Protection
   - Divine Protection
-- download [01_amstaffix_paladin_retribution_loader.lua]()
+- download [01_amstaffix_paladin_retribution_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/paladin/retribution/v2/01_amstaffix_paladin_retribution_loader.lua)
 - place downloaded file `01_amstaffix_paladin_retribution_loader.lua` into
   - HWT: `{HWT_Dir}/addons/Wrath of the Lichking/Plugins/`
   - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`

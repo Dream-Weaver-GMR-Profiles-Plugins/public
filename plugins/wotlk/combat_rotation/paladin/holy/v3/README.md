@@ -17,7 +17,7 @@
   - All judgements
   - Consecrations
   - Hammer Of Wrath
-- download [01_amstaffix_paladin_holy_loader.lua](TODO)
+- download [01_amstaffix_paladin_holy_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/paladin/holy/v3/01_amstaffix_paladin_holy_loader.lua)
 - place downloaded file `01_amstaffix_paladin_holy_loader.lua` into
   - HWT: `{HWT_Dir}/addons/Wrath of the Lichking/Plugins/`
   - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
