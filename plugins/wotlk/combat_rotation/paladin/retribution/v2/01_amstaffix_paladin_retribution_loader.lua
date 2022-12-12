@@ -11,6 +11,9 @@ local Config = {
     ---Use online loading feature to get last updates
     onlineLoad = true,
 
+    consumeArtOfWarFlashLightMinHp = 80,
+    consumeArtOfWarFlashLightIfAuraDepletedSoon = true,
+
     useConsecrations = true,
     useConsecrationsMinEnemies = 1,
 
@@ -18,6 +21,8 @@ local Config = {
     useJudgmentType = 1, -- 1:Judgement of Light; 2:Judgement of Wisdom; 3:Judgement of Justice;
 
     useHandOfReckoningToMakeDamage = true,
+
+    useDivineStormMinEnemies = 1,
 
     defaultAuraToUse = 1, -- 1:Devotion Aura; 2:Retribution Aura; 3:Concentration Aura; 4:Shadow Resistance Aura; 5:Frost Resistance Aura; 6:Fire Resistance Aura
     defaultAuraChangeIfAlreadyExist = { 2, 3 }, -- 1:Devotion Aura; 2:Retribution Aura; 3:Concentration Aura; 4:Shadow Resistance Aura; 5:Frost Resistance Aura; 6:Fire Resistance Aura
