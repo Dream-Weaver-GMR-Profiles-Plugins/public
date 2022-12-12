@@ -11,6 +11,9 @@ local Config = {
     ---Use online loading feature to get last updates
     onlineLoad = true,
 
+    consumeArtOfWarFlashLightMinHp = 80,
+    consumeArtOfWarFlashLightIfAuraDepletedSoon = true,
+
     useConsecrations = true,
     useConsecrationsMinEnemies = 1,
 
