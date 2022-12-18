@@ -33,10 +33,10 @@ local Config = {
 
     useBlessingOfFreedom = true,
 
-    groupBuffModEnabled = true,
+    groupBuffModEnabled = false,
     groupBuffModMinMana = 70,
 
-    useAggroSpellsInGroup = true,
+    useAggroSpellsInGroup = false,
     
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
