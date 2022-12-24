@@ -1,7 +1,10 @@
 # WotLK > Plugin > Combat Rotation > Mage > Arcane
 
 ## Features
-- basic rotation for 70+ lvl arcane mage
+- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/mage/arcane/dps-rotation-cooldowns-abilities-pve)
+- smart usage of all procs
+- smart aoe
+- dps on movement
 
 ## Installation
 - delete previous versions!
@@ -15,6 +18,21 @@
 File has Config lua table with some tune options, you can change as you like
 
 ## Backlog
+- create toogle for burst
+- start to use amplify magic
+- start to use arcane buffs in groups and on self
+- start to use counterspell
+- start to use dampen magic (?)
+- start to use invisibility
+- start to use polymorph (?)
+- start use remove curse
+- start use slow (?)
+- start use slow fall
+- start use spell steal
+- start use frost nova
+- start use frost/fire wards
+- start use ice lance (?)
+- start use ice block
 
 ## Troubleshooting
 If you encounter problems you should:
