@@ -18,6 +18,7 @@
 File has Config lua table with some tune options, you can change as you like
 
 ## Backlog
+- ~~add aoe~~
 - create toogle for burst
 - start to use amplify magic
 - start to use arcane buffs in groups and on self
