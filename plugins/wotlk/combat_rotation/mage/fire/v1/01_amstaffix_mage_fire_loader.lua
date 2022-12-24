@@ -13,6 +13,17 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
+    minEneminesToAoe = 3,
+
+    defaultArmor = {4, 2, 1, 3}, -- 1:frost-armor;2:ice-armor;3:mage-armor;4:molten-armor
+
+    useLivingBombAoeMinHpThreshold = 80,
+    useManaShieldMinHpThreshold = 20,
+    useManaShieldMinMpThreshold = 40,
+
+    useFireBlastOnlyWhileMoving = true,
+    useConeOfColdOnlyWhileMoving = false,
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 
