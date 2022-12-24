@@ -3,6 +3,7 @@
 ## Features
 - trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/mage/frost/dps-rotation-cooldowns-abilities-pve)
 - smart usage of all procs
+- burst with deep freeze on last stack of fingers of frost aura
 - smart aoe
 - dps on movement
 
