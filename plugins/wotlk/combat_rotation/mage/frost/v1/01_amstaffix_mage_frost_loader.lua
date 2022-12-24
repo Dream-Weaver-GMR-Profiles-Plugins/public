@@ -1,4 +1,4 @@
-local ID = "CR>M/F"
+local ID = "CR>M/Fr"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
 local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/mage/frost/v1/90_amstaffix_mage_frost_rotation.gmr"
 ---@type MageFrostV1Config
