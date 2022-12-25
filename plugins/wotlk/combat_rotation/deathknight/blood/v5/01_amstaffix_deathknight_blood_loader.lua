@@ -1,5 +1,5 @@
 local ID = "CR>DK/B"
-local LIB_LINK = "https://raw.githubusercontent.com/AmsTaFFix/gmr-stuff/main/backside/plugins/custom/00_amstlib.lua"
+local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
 local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/deathknight/blood/v5/02_amstaffix_deathknight_blood_rotation.gmr"
 ---@type DeathKnightBloodV5Config
 local Config = {
@@ -85,7 +85,7 @@ do
             Method = "Get",
             Callback = function(content)
                 printDbg("library has been downloaded, now we'll try to execute it")
-                RunScript(content)
+                GMR.RunEncryptedScript(content)
                 if not amstlib then
                     GMR.Print(msgPrefix .. "AmsTaFFix' Lib do not initialized properly")
                     return
