@@ -1,13 +1,13 @@
 # WotLK > Plugin > Combat Rotation > Warlock > Demonology
 
 ## Features
-- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/mage/fire/dps-rotation-cooldowns-abilities-pve)
+- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/warlock/demonology/dps-rotation-cooldowns-abilities-pve)
 
 ## Installation
 - delete previous versions!
 - turn off all spells in Spells tab
-- download [01_amstaffix_mage_fire_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/mage/fire/v1/01_amstaffix_mage_fire_loader.lua)
-- place downloaded file `01_amstaffix_mage_fire_loader.lua` into
+- download [01_amstaffix_warlock_demonology_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/warlock/demonology/v1/01_amstaffix_wralock_demonology_loader.lua)
+- place downloaded file `01_amstaffix_warlock_demonology_loader.lua` into
   - HWT: `{HWT_Dir}/addons/Wrath of the Lichking/Plugins/`
   - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
 
