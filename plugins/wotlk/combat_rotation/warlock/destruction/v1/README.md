@@ -1,13 +1,13 @@
 # WotLK > Plugin > Combat Rotation > Warlock > Destruction
 
 ## Features
-- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/warlock/desctruction/dps-rotation-cooldowns-abilities-pve)
+- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/warlock/destruction/dps-rotation-cooldowns-abilities-pve)
 
 ## Installation
 - delete previous versions!
 - turn off all spells in Spells tab
-- download [01_amstaffix_warlock_desctruction_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/warlock/desctruction/v1/01_amstaffix_wralock_desctruction_loader.lua)
-- place downloaded file `01_amstaffix_warlock_desctruction_loader.lua` into
+- download [01_amstaffix_warlock_destruction_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/warlock/destruction/v1/01_amstaffix_warlock_destruction_loader.lua)
+- place downloaded file `01_amstaffix_warlock_destruction_loader.lua` into
   - HWT: `{HWT_Dir}/addons/Wrath of the Lichking/Plugins/`
   - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
 
