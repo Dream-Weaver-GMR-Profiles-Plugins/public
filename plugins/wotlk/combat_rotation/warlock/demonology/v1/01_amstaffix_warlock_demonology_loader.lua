@@ -1,4 +1,4 @@
-local ID = "CR>M/Dem"
+local ID = "CR>W/Dem"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
 local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/warlock/demonology/v1/90_amstaffix_warlock_demonology_rotation.gmr"
 ---@type WarlockDemonologyV1Config
