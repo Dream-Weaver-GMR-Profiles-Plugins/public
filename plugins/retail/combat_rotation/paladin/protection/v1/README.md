@@ -6,7 +6,7 @@
 ## Installation
 - delete previous versions!
 - turn off all spells in Spells tab
-- download [01_amstaffix_paladin_protection_loader.lua](TODO)
+- download [01_amstaffix_paladin_protection_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/paladin/protection/v1/01_amstaffix_paladin_protection_loader.lua)
 - place downloaded file `01_amstaffix_paladin_protection_loader.lua` into
   - HWT: `{HWT_Dir}/addons/Dragonflight/Plugins/`
   - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
