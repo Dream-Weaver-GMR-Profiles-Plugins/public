@@ -1,7 +1,10 @@
 # Dragonflight > Plugin > Combat Rotation > Paladin > Protection
 
 ## Features
-- optimal usage of all spells
+- use all spells and all talents
+- smart usage of defensive spells
+- dusk/dawn optimal usage
+- high survivability and damage
 
 ## Installation
 - delete previous versions!
