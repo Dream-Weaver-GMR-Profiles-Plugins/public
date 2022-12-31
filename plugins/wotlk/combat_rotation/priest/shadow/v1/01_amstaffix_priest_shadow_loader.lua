@@ -13,6 +13,14 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
+    useMindSearMinEnemiesAroundTarget = 2,
+
+    useDispersion = true,
+    useDispersionMinMana = 25,
+
+    useShadowfiend = true,
+    useShadowfiendMinMana = 20,
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 
