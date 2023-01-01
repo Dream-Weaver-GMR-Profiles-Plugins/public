@@ -15,6 +15,10 @@ local Config = {
 
     useStarfallMinEnemies = 1,
 
+    useTyphoonMinEnemies = 4,
+
+    useHurricaneMinEnemies = 4,
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 
