@@ -13,6 +13,10 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
+    useThunderousRoarMinEnemies = 1,
+
+    useRevengeAtRage = 80,
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 
