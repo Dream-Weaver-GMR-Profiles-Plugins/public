@@ -18,7 +18,6 @@ File has Config lua table with some tune options, you can change as you like
 
 ## Backlog
 
-
 ## Troubleshooting
 If you encounter problems you should:
 - turn on debug mode (just change `debug = false` to `debug = true` in downloaded file), then type `/reload` in WoW client.
