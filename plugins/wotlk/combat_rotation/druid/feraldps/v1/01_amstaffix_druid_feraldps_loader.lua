@@ -13,6 +13,20 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
+    dumpEnergyAt = 85,
+
+    useBearWeaving = true,
+    useBearWeavingEnergyLowLimit = 40,
+    useBearWeavingEnergyUpLimit = 75,
+
+    useFaerieFire = true,
+
+    useCatCharge = true,
+    useBearCharge = true,
+    useBearEnrage = true,
+
+    aoeMinEnemies = 5,
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 

@@ -2,6 +2,8 @@
 
 ## Features
 - trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/druid/feral/dps-rotation-cooldowns-abilities-pve)
+- use Bear Weaving (for AoE too)
+- use bear to charge
 
 ## Installation
 - delete previous versions!
