@@ -1,7 +1,7 @@
-local ID = "CR/DF>H/M"
+local ID = "CR/DF>H/S"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
-local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/hunter/marksmanship/v1/90_amstaffix_hunter_marksmanship_rotation.gmr"
----@type RetailHunterMarksmanshipV1Config
+local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/hunter/survival/v1/90_amstaffix_hunter_survival_rotation.gmr"
+---@type RetailHunterSurvivalV1Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
@@ -13,6 +13,9 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
+    useFocusDumpAt = 65,
+    useHarpoonToGetCloser = true,
+    useHarpoonDisengageCombo = true,
     minEnemiesToAoe = 3,
 
     useTrinket1 = false,
