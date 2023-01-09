@@ -1,7 +1,7 @@
-local ID = "CR>DK/U"
+local ID = "CR/DF>H/B"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
-local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/deathknight/unholy/v1/02_amstaffix_deathknight_unholy_rotation.gmr"
----@type DeathKnightUnholyV1Config
+local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/hunter/beastmastery/v1/90_amstaffix_hunter_beastmastery_rotation.gmr"
+---@type RetailHunterSurvivalV1Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
@@ -14,39 +14,10 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
-    ---Min HP to cast Icebound Fortitude
-    iceboundFortitudeHpUse = 50,
-    bloodBoilEnabled = true,
-    ---Should bot use only blood runes for blood-runes offensive spells like Blood Boil, Heart/Blood Strike
-    useBloodFillersWithBloodRunesOnly = false,
-    ---Min enemies to start using Blood Boil instead off Blood/Hearth Strike
-    bloodBoilMinEnemies = 3,
-    ---Default presence
-    --- - 1:blood;
-    --- - 2:frost;
-    --- - 3:unholy;
-    defaultPresence = 1,
-    ---Change presence on frost, if HP < X. Change it to 0 to turn off
-    minHpToChangeToFrostPresence = 60,
+    minEnemiesToAoe = 3,
 
-    useStrangulateToInterruptCasts = true,
-    useDeathGripToInterruptCasts = true,
-
-    useDeathAndDecay = false,
-    useDeathAndDecayMinEnemies = 3,
-
-    useDeathCoilOnEnemy = true,
-    useDeathCoilOnEnemyMaxEnemies = 100,
-
-    useCorpseExplosion = false,
-    useCorpseExplosionMinEnemies = 3,
-
-    useGhoulFrenzy = true,
-
-    --- should use death strike in some circumstances
-    useDeathStrike = false,
-    --- Using Death strike when HP < N
-    useDeathStrikeMaxHp = 60,
+    useCobraShotAt = 70,
+    useSteelTrap = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
