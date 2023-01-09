@@ -6,6 +6,7 @@ local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
     debug = false,
+    collectMetrics = false,
     ---Use standard CombatRotation pluggable function. Change only if you know what you are doing.
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
