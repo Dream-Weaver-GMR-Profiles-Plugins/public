@@ -13,6 +13,10 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
+    defaultMainHandWeaponEnchant = {1, 2, 3}, -- 1:flametongue; 2:frostband; 3:rockbiter
+    defaultOffHandWeaponEnchant = {1, 2, 3}, -- 1:flametongue; 2:frostband; 3:rockbiter
+    defaultShieldBuff = {1, 2}, -- 1:lightning; 2:water
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 
