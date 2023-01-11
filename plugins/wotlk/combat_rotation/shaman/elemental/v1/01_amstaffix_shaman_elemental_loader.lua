@@ -56,9 +56,6 @@ do
         if amstlib then
             local cr = amstlib:getCombatRotation(ID)
             cr:prepare(Config)
-            if Config.onlineLoad then
-                cr:loadEncrypted(ROTATION_LINK)
-            end
         else
             GMR.Print(msgPrefix .. "AmsTaFFix' Lib do not initialized properly")
         end
