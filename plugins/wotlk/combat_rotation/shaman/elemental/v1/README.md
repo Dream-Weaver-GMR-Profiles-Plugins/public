@@ -1,13 +1,13 @@
 # WotLK > Plugin > Combat Rotation > Shaman > Elemental
 
 ## Features
-- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/shaman/balance/dps-rotation-cooldowns-abilities-pve)
+- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/shaman/elemental/dps-rotation-cooldowns-abilities-pve)
 
 ## Installation
 - delete previous versions!
 - turn off all spells in Spells tab
-- download [01_amstaffix_shaman_balance_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/shaman/balance/v1/01_amstaffix_shaman_balance_loader.lua)
-- place downloaded file `01_amstaffix_shaman_balance_loader.lua` into
+- download [01_amstaffix_shaman_elemental_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/shaman/elemental/v1/01_amstaffix_shaman_elemental_loader.lua)
+- place downloaded file `01_amstaffix_shaman_elemental_loader.lua` into
   - HWT: `{HWT_Dir}/addons/Wrath of the Lichking/Plugins/`
   - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
 
