@@ -1,4 +1,4 @@
-local ID = "CR/W>S/E"
+local ID = "CR/W>S/El"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
 local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/shaman/elemental/v1/90_amstaffix_shaman_elemental_rotation.gmr"
 ---@type ShamanElementalV1Config
