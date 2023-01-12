@@ -5,17 +5,22 @@ local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profil
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
-    debug = true,
+    debug = false,
     ---Use standard CombatRotation pluggable function. Change only if you know what you are doing.
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
-    onlineLoad = false,
+    onlineLoad = true,
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
     defaultMainHandWeaponEnchant = {1, 2, 3}, -- 1:flametongue; 2:frostband; 3:rockbiter
     defaultOffHandWeaponEnchant = {1, 2, 3}, -- 1:flametongue; 2:frostband; 3:rockbiter
     defaultShieldBuff = {1, 2}, -- 1:lightning; 2:water
+
+    useFlameShockEstDurationOnTargetToStartSpread = 3,
+    useBurstAlways = true,
+
+    aoeMinEnemies = 2,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
