@@ -1,14 +1,14 @@
-# WotLK > Plugin > Combat Rotation > Shaman > Elemental
+# WotLK > Plugin > Combat Rotation > Shaman > Enhancement
 
 ## Features
-- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/shaman/elemental/dps-rotation-cooldowns-abilities-pve)
-- has toggleable burst mode (make `useBurstAlways = false` in `Config`) and use `/amstburst start 60` command
+- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/shaman/enhancement/dps-rotation-cooldowns-abilities-pve)
+- has toggleable burst mode. Make `useBurstAlways = false` in `Config` and use `/amstburst start 60` command (save as a macro) to start burst.
 
 ## Installation
 - delete previous versions!
 - turn off all spells in Spells tab
-- download [01_amstaffix_shaman_elemental_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/shaman/elemental/v1/01_amstaffix_shaman_elemental_loader.lua)
-- place downloaded file `01_amstaffix_shaman_elemental_loader.lua` into
+- download [01_amstaffix_shaman_enhancement_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/shaman/enhancement/v1/01_amstaffix_shaman_enhancement_loader.lua)
+- place downloaded file `01_amstaffix_shaman_enhancement_loader.lua` into
   - HWT: `{HWT_Dir}/addons/Wrath of the Lichking/Plugins/`
   - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
 

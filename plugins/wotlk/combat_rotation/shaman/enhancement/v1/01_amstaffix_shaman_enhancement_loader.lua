@@ -1,7 +1,7 @@
-local ID = "CR/W>S/El"
+local ID = "CR/W>S/Enh"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
-local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/shaman/elemental/v1/90_amstaffix_shaman_elemental_rotation.gmr"
----@type ShamanElementalV1Config
+local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/shaman/enhancement/v1/90_amstaffix_shaman_enhancement_rotation.gmr"
+---@type ShamanEnhancementV1Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
@@ -13,12 +13,13 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
-    defaultMainHandWeaponEnchant = {1, 2, 3, 4}, -- 1:flametongue; 2:frostband; 3:rockbiter; 4:windfury
+    defaultMainHandWeaponEnchant = {4, 1, 2, 3}, -- 1:flametongue; 2:frostband; 3:rockbiter; 4:windfury
     defaultOffHandWeaponEnchant = {1, 2, 3, 4}, -- 1:flametongue; 2:frostband; 3:rockbiter; 4:windfury
-    defaultShieldBuff = {2, 1}, -- 1:lightning; 2:water
+    defaultShieldBuff = {1, 2}, -- 1:lightning; 2:water
+
+    useBurstAlways = true,
 
     useFlameShockEstDurationOnTargetToStartSpread = 3,
-    useBurstAlways = true,
 
     aoeMinEnemies = 2,
 
