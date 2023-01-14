@@ -15,6 +15,23 @@ local Config = {
     ---Use all bursts when they off cooldown
     useBurstAlways = true,
 
+    useCurse = true,
+    useCurseType = {1, 2, 3}, -- 1:weakness; 2:exhaustion; 3:tongues
+
+    useDrainLife = true,
+    useDrainLifeMinHp = 70,
+
+    useHealthFunnel = true,
+    useHealthFunnelMinPetHP = 50,
+    useHealthFunnelMinHP = 70,
+
+    useSoulburnKeepBuff = false,
+
+    changeTargetForDecimation = true,
+
+    minEnemiesToCastRainOfFire = 3,
+    minEnemiesToCastRainOfFireWhileHavocUp = 5,
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 
