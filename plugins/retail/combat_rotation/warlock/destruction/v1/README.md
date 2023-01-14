@@ -4,6 +4,9 @@
 - tries his best to execute proper rotation according to [this guide](https://www.wowhead.com/guide/classes/warlock/destruction/rotation-cooldowns-pve-dps)
 - uses all spells and all talents
 - has toggleable burst mode (make `useBurstAlways = false` in `Config`) and use `/amstburst start 60` command
+- execute nearby targets
+- very effective burst window
+- smart AoE
 
 ## Installation
 - delete previous versions!
