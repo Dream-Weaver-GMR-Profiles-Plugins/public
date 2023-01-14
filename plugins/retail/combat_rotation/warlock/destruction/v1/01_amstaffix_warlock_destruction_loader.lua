@@ -5,11 +5,11 @@ local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profil
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
-    debug = true,
+    debug = false,
     ---Use standard CombatRotation pluggable function. Change only if you know what you are doing.
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
-    onlineLoad = false,
+    onlineLoad = true,
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
     ---Use all bursts when they off cooldown
@@ -17,6 +17,8 @@ local Config = {
 
     useCurse = true,
     useCurseType = {1, 2, 3}, -- 1:weakness; 2:exhaustion; 3:tongues
+
+    useDemon = {1, 2, 3, 4, 5}, -- 1:imp; 2:voidwalker; 3:felhunter; 4:sayaad; 5:felguard
 
     useDrainLife = true,
     useDrainLifeMinHp = 70,
