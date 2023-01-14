@@ -22,6 +22,8 @@ local Config = {
     useCurse = true,
     useCurseType = {1, 2, 3}, -- 1:weakness; 2:exhaustion; 3:tongues
 
+    useDemon = {5, 1, 2, 3, 4}, -- 1:imp; 2:voidwalker; 3:felhunter; 4:sayaad; 5:felguard
+
     useDrainLife = true,
     useDrainLifeMinHp = 70,
 
