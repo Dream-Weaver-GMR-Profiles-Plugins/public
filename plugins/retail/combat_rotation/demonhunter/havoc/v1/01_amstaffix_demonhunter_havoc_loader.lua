@@ -15,6 +15,13 @@ local Config = {
     ---Use all bursts when they off cooldown
     useBurstAlways = true,
 
+    useGlaiveTempestMinEnemies = 1,
+    useFelBarrageMinEnemies = 2,
+    useElysianDecreeMinEnemies = 2,
+    useSigilOfFlameMinEnemies = 2,
+
+    useRushRetreatComboWithUnboundChaos = true,
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 

@@ -4,6 +4,8 @@
 - tries his best to execute proper rotation according to [this guide](https://www.wowhead.com/guide/classes/demonhunter/havoc/rotation-cooldowns-pve-dps)
 - uses all spells and all talents
 - has toggleable burst mode (make `useBurstAlways = false` in `Config`) and use `/amstburst start 60` command
+- fel rush vengeful retreat combo
+- effective CDs stacking
 
 ## Installation
 - delete previous versions!
