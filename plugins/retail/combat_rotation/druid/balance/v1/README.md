@@ -6,6 +6,7 @@
 - has toggleable burst mode (make `useBurstAlways = false` in `Config`) and use `/amstburst start 60` command
 - smart starlord buff filler
 - optimal astral power usage
+- precast of wrath/starfire to reduce eclipse CD
 
 ## Installation
 - delete previous versions!
