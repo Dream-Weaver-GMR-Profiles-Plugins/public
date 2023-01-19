@@ -4,6 +4,8 @@
 - tries his best to execute proper rotation according to [this guide](https://www.wowhead.com/guide/classes/druid/balance/rotation-cooldowns-pve-dps)
 - uses all spells and all talents
 - has toggleable burst mode (make `useBurstAlways = false` in `Config`) and use `/amstburst start 60` command
+- smart starlord buff filler
+- optimal astral power usage
 
 ## Installation
 - delete previous versions!
@@ -17,7 +19,8 @@
 File has Config lua table with some tune options, you can change as you like
 
 ## Backlog
-- 
+- recheck with 2pc set
+- recheck with 4pc set
 
 ## Troubleshooting
 If you encounter problems you should:
