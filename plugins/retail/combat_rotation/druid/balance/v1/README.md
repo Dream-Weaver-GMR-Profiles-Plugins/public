@@ -7,6 +7,8 @@
 - smart starlord buff filler
 - optimal astral power usage
 - precast of wrath/starfire to reduce eclipse CD
+- bear-form heal
+- heals usage
 
 ## Installation
 - delete previous versions!
