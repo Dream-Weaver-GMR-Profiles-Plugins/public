@@ -14,7 +14,18 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
+    useCobraShotAt = 70,
     minEnemiesToAoe = 3,
+    useConcussiveShot = true,
+    useCounterShot = true,
+    useExhilarationMinHP = 50,
+    useMendPetMinHP = 65,
+    useSurvivalOfTheFittestMinHP = 90,
+    useTarTrap = true,
+    useSteelTrap = true,
+    useIntimidationInMelee = true,
+    useBindingShot = true,
+    useDisengageInMelee = true,
 
     useCobraShotAt = 70,
     useSteelTrap = true,
