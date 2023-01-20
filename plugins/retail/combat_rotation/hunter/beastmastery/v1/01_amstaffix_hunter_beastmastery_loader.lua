@@ -1,7 +1,7 @@
 local ID = "CR/DF>H/B"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
 local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/hunter/beastmastery/v1/90_amstaffix_hunter_beastmastery_rotation.gmr"
----@type RetailHunterSurvivalV1Config
+---@type RetailHunterBeastMasteryV1Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
@@ -17,6 +17,7 @@ local Config = {
     useCobraShotAt = 70,
     minEnemiesToAoe = 3,
     useConcussiveShot = true,
+    useWingClip = true,
     useCounterShot = true,
     useExhilarationMinHP = 50,
     useMendPetMinHP = 65,

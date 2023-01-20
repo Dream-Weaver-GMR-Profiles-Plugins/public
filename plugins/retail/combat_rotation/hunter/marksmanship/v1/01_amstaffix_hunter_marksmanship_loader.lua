@@ -15,6 +15,7 @@ local Config = {
 
     minEnemiesToAoe = 3,
     useConcussiveShot = true,
+    useWingClip = true,
     useCounterShot = true,
     useExhilarationMinHP = 50,
     useMendPetMinHP = 65,
