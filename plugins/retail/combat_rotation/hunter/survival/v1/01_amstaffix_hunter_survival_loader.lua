@@ -27,7 +27,6 @@ local Config = {
     useSteelTrap = true,
     useIntimidation = true,
     useBindingShot = true,
-    useDisengageInMelee = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
