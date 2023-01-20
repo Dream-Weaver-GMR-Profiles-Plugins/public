@@ -17,6 +17,17 @@ local Config = {
     useHarpoonToGetCloser = true,
     useHarpoonDisengageCombo = true,
     minEnemiesToAoe = 3,
+    useConcussiveShot = true,
+    useWingClip = true,
+    useMuzzle = true,
+    useExhilarationMinHP = 50,
+    useMendPetMinHP = 65,
+    useSurvivalOfTheFittestMinHP = 90,
+    useTarTrap = true,
+    useSteelTrap = true,
+    useIntimidation = true,
+    useBindingShot = true,
+    useDisengageInMelee = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful

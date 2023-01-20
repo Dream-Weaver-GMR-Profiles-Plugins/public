@@ -16,7 +16,9 @@
 File has Config lua table with some tune options, you can change as you like
 
 ## Backlog
-- 
+- start using tranqualizing shot
+- check with 2pc set
+- check with 4pc set
 
 ## Troubleshooting
 If you encounter problems you should:
