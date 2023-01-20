@@ -20,6 +20,7 @@ local Config = {
     useMendPetMinHP = 65,
     useSurvivalOfTheFittestMinHP = 90,
     useTarTrap = true,
+    useSteelTrap = true,
     useIntimidationInMelee = true,
     useBindingShot = true,
 
