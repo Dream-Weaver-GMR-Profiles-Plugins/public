@@ -14,6 +14,14 @@ local Config = {
     forceLoadForCharacters = {},
 
     minEnemiesToAoe = 3,
+    useConcussiveShot = true,
+    useCounterShot = true,
+    useExhilarationMinHP = 50,
+    useMendPetMinHP = 65,
+    useSurvivalOfTheFittestMinHP = 90,
+    useTarTrap = true,
+    useIntimidationInMelee = true,
+    useBindingShot = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
