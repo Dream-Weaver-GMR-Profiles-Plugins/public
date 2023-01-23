@@ -47,7 +47,7 @@ local function printDbg(msg)
     end
 end
 
-if GMR.GetClass("player") == amstlib.CONST.CLASS.WARLOCK then
+if GMR.GetClass("player") == amstlib.CONST.CLASS.WARLOCK and GetSpecialization() == 3 then
     local msgPrefix = "[" .. ID .. "] "
     if Config.onlineLoad then
         GMR.SendHttpRequest({
