@@ -36,7 +36,7 @@ local function printDbg(msg)
     end
 end
 
-do
+if GMR.GetClass("player") == amstlib.CONST.CLASS.SHAMAN then
     local msgPrefix = "[" .. ID .. "] "
     if Config.onlineLoad then
         GMR.SendHttpRequest({
