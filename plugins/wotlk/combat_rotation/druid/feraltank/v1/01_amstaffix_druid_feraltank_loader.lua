@@ -28,7 +28,7 @@ local function printDbg(msg)
     end
 end
 
-if GMR.GetClass("player") == amstlib.CONST.CLASS.DRUID then
+if GMR.GetClass("player") == "DRUID" then
     local msgPrefix = "[" .. ID .. "] "
     if Config.onlineLoad then
         GMR.SendHttpRequest({
