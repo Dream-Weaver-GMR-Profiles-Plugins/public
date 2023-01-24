@@ -19,6 +19,7 @@ local Config = {
     useCurse = {1, 2, 5, 4, 3}, -- 1:Curse of Agony;2:Curse of Doom;3:Curse of Tongues;4:Curse of Weakness;5:Curse of the Elements
 
     useLifeTapToGetMpMinHPThreshold = 20,
+    useSeedOfCorruptionMinEnemies = 2,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
