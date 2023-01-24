@@ -47,7 +47,7 @@ local function printDbg(msg)
     end
 end
 
-if GMR.GetClass("player") == "DRUID" and GetSpecialization() == 2 then
+if GMR.GetClass("player") == "DRUID" and (GetSpecialization() == 5 or GetSpecialization() == 2) then
     local msgPrefix = "[" .. ID .. "] "
     if Config.onlineLoad then
         GMR.SendHttpRequest({
