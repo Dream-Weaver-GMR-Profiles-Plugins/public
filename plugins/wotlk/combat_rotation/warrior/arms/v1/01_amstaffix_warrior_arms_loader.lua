@@ -5,14 +5,27 @@ local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profil
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
-    debug = true,
+    debug = false,
     ---Use standard CombatRotation pluggable function. Change only if you know what you are doing.
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
-    onlineLoad = false,
+    onlineLoad = true,
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
     useBurstAlways = true,
+
+    useSunderArmor = true,
+    useSlam = true,
+    minEnemiesToAoe = 2,
+    useRetaliationMinHP = 50,
+    useBerserkerRage = true,
+    useDemoralizingShout = true,
+    useBattleShout = true,
+    useCommandingShout = true, -- if battle shout or alternative already presents
+    useBloodRage = true,
+    useBloodRageMinHP = 40,
+    useGiftOfTheNaauruMinHP = 80,
+    useIntercept = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
