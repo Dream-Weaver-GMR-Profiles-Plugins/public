@@ -5,7 +5,8 @@
 - trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/warrior/arms/dps-rotation-cooldowns-abilities-pve)
 - has toggleable burst mode. Make `useBurstAlways = false` in `Config` and use `/amstburst start 60` command (save as a macro) to start burst.
 - uses race abilities
-- toggle stances to burst and intercept
+- charge and intercept usage
+- toggle stances to burst 
 - efficient rage usage
 
 ## Installation

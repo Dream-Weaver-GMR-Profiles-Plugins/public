@@ -5,6 +5,7 @@
 - trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/warrior/fury/dps-rotation-cooldowns-abilities-pve)
 - has toggleable burst mode. Make `useBurstAlways = false` in `Config` and use `/amstburst start 60` command (save as a macro) to start burst.
 - uses race abilities
+- charge and intercept usage
 - uses `rend` to increase DPS
 - efficient usage of `frenzied regeneration`
 
