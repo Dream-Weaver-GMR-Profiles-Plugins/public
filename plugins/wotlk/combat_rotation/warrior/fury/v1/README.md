@@ -1,18 +1,18 @@
-# WotLK > Plugin > Combat Rotation > Warrior > Arms
+# WotLK > Plugin > Combat Rotation > Warrior > Fury
 
 ## Features
 - uses almost all spells and talents
-- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/warrior/arms/dps-rotation-cooldowns-abilities-pve)
+- trying his best to execute proper rotation according to [this guide](https://www.wowhead.com/wotlk/guide/classes/warrior/fury/dps-rotation-cooldowns-abilities-pve)
 - has toggleable burst mode. Make `useBurstAlways = false` in `Config` and use `/amstburst start 60` command (save as a macro) to start burst.
 - uses race abilities
-- toggle stances to burst and intercept
-- efficient rage usage
+- uses `rend` to increase DPS
+- efficient usage of `frenzied regeneration`
 
 ## Installation
 - delete previous versions!
 - turn off all spells in Spells tab
-- download [01_amstaffix_warrior_arms_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/warrior/arms/v1/01_amstaffix_warrior_arms_loader.lua)
-- place downloaded file `01_amstaffix_warrior_arms_loader.lua` into
+- download [01_amstaffix_warrior_fury_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/warrior/fury/v1/01_amstaffix_warrior_fury_loader.lua)
+- place downloaded file `01_amstaffix_warrior_fury_loader.lua` into
   - HWT: `{HWT_Dir}/addons/Wrath of the Lichking/Plugins/`
   - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
 
