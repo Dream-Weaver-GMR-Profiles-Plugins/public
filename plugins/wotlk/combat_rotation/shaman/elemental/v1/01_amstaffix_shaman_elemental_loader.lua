@@ -13,6 +13,8 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
+    useGiftOfTheNaauruMinHP = 80,
+
     defaultMainHandWeaponEnchant = {1, 2, 3, 4}, -- 1:flametongue; 2:frostband; 3:rockbiter; 4:windfury
     defaultOffHandWeaponEnchant = {1, 2, 3, 4}, -- 1:flametongue; 2:frostband; 3:rockbiter; 4:windfury
     defaultShieldBuff = {2, 1}, -- 1:lightning; 2:water
