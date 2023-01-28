@@ -42,7 +42,7 @@ local function printDbg(msg)
     end
 end
 
-if GMR.GetClass("player") == "MAGE" then
+if UnitClassBase("player") == "MAGE" then
     local msgPrefix = "[" .. ID .. "] "
     if Config.onlineLoad then
         GMR.SendHttpRequest({

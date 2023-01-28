@@ -37,7 +37,7 @@ local function printDbg(msg)
     end
 end
 
-if GMR.GetClass("player") == "SHAMAN" then
+if UnitClassBase("player") == "SHAMAN" then
     local msgPrefix = "[" .. ID .. "] "
     if Config.onlineLoad then
         GMR.SendHttpRequest({
