@@ -11,6 +11,8 @@ local Config = {
     ---Use online loading feature to get last updates
     onlineLoad = true,
 
+    useGiftOfTheNaauruMinHP = 80,
+
     groupCleanseModEnabled = true,
     useJudgmentType = 2, -- 1:Judgement of Light; 2:Judgement of Wisdom; 3:Judgement of Justice;
     useJudgmentTryToCleave = true,

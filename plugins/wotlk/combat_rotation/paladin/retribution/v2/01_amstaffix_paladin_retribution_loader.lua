@@ -11,6 +11,8 @@ local Config = {
     ---Use online loading feature to get last updates
     onlineLoad = true,
 
+    useGiftOfTheNaauruMinHP = 80,
+
     consumeArtOfWarFlashLightMinHp = 80,
     consumeArtOfWarFlashLightIfAuraDepletedSoon = true,
 
