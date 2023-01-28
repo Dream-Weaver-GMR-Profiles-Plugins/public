@@ -13,6 +13,8 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
+    useGiftOfTheNaauruMinHP = 80,
+
     useMindSearMinEnemiesAroundTarget = 2,
 
     useDispersion = true,
