@@ -13,6 +13,8 @@ local Config = {
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
 
+    useGiftOfTheNaauruMinHP = 80,
+
     minEneminesToAoe = 3,
 
     defaultArmor = {4, 2, 1, 3}, -- 1:frost-armor;2:ice-armor;3:mage-armor;4:molten-armor
