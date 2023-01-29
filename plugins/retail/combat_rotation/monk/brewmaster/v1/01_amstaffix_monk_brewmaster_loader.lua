@@ -1,6 +1,6 @@
 local ID = "CR/DF>M/B"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
-local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/monk/windwalker/v1/90_amstaffix_monk_windwalker_rotation.gmr"
+local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/monk/brewmaster/v1/90_amstaffix_monk_brewmaster_rotation.gmr"
 ---@type DFMonkWindwalkerV1Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
