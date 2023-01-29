@@ -1,21 +1,21 @@
-local ID = "CR/W>H/B"
+local ID = "CR/W>H/M"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
-local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/hunter/beastmastery/v1/90_amstaffix_hunter_beastmastery_rotation.gmr"
----@type HunterBeastmasteryV1Config
+local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/combat_rotation/hunter/marksmanship/v1/90_amstaffix_hunter_marksmanship_rotation.gmr"
+---@type HunterMarksmanshipV1Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
-    debug = false,
+    debug = true,
     ---Use standard CombatRotation pluggable function. Change only if you know what you are doing.
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
-    onlineLoad = true,
+    onlineLoad = false,
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
     useBurstAlways = true,
 
     useGiftOfTheNaauruMinHP = 80,
-    useMultiShotMinEnemies = 3,
+    useMultiShotMinEnemies = 2,
     useMultiShotMinMana = 20,
     useSteadyShotMinMana = 60,
     useArcaneShotMinMana = 20,
@@ -23,9 +23,8 @@ local Config = {
     useAspectOfViperToRestoreMana = true,
     useAspectOfViperToRestoreManaMinMana = 30,
     useAspectOfViperToRestoreManaMaxMana = 95,
-    useIntimidationInMelee = true,
     useConcussiveShot = true,
-    useVolleyMinEnemies = 3,
+    useVolleyMinEnemies = 4,
     useDisengage = true,
     useExplosiveTrap = true,
     useImmolationTrap = true,
