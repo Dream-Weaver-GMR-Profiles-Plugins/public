@@ -1,19 +1,18 @@
-# Dragonflight > Plugin > Combat Rotation > Druid > Feral
+# Dragonflight > Plugin > Combat Rotation > Monk > Windwalker
 
 ## Features
-- tries his best to execute proper rotation according to [this guide](https://www.wowhead.com/guide/classes/druid/feral/rotation-cooldowns-pve-dps)
+- tries his best to execute proper rotation according to [this guide](https://www.wowhead.com/guide/classes/monk/windwalker/rotation-cooldowns-pve-dps)
 - uses all spells and all talents
 - has toggleable burst mode (make `useBurstAlways = false` in `Config`) and use `/amstburst start 60` command
-- ideal snapshoting of bleeds
-- 90%+ bleedtalons uptime with moonfire+brutal slash talents
-- smart energy pooling and dumping
-- smart usage of all heals and protections spells
+- ideal mastery usage
+- serenity fists of fury snapshot
+- optimal single/cleave/aoe rotation
 
 ## Installation
 - delete previous versions!
 - turn off all spells in Spells tab
-- download [01_amstaffix_druid_feral_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/druid/feral/v1/01_amstaffix_druid_feral_loader.lua)
-- place downloaded file `01_amstaffix_druid_feral_loader.lua` into
+- download [01_amstaffix_monk_windwalker_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/monk/windwalker/v1/01_amstaffix_monk_windwalker_loader.lua)
+- place downloaded file `01_amstaffix_monk_windwalker_loader.lua` into
     - HWT: `{HWT_Dir}/addons/Dragonflight/Plugins/`
     - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
 
