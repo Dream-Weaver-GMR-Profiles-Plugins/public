@@ -5,14 +5,33 @@ local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profil
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
-    debug = true,
+    debug = false,
     ---Use standard CombatRotation pluggable function. Change only if you know what you are doing.
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
-    onlineLoad = false,
+    onlineLoad = true,
     ---Character names to force load that rotation
     forceLoadForCharacters = {},
     useBurstAlways = true,
+
+    minEnemiesToAoe = 2,
+    useGiftOfTheNaauruMinHP = 80,
+    useMultiShotMinEnemies = 3,
+    useMultiShotMinMana = 20,
+    useSteadyShotMinMana = 60,
+    useArcaneShotMinMana = 20,
+    defaultAspect = {3, 2, 3, 4, 5, 6, 7, 8, 1}, -- 1:beast; 2:cheetah; 3:dragonhawk; 4:hawk; 5:monkey; 6:pack; 7:viper; 8:wild
+    useAspectOfViperToRestoreMana = true,
+    useAspectOfViperToRestoreManaMinMana = 30,
+    useAspectOfViperToRestoreManaMaxMana = 95,
+    useIntimidationInMelee = true,
+    useConcussiveShot = true,
+    useVolleyMinEnemies = 3,
+    useDisengage = true,
+    useExplosiveTrap = true,
+    useImmolationTrap = true,
+    useSnakeTrap = true,
+    useWingClip = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
