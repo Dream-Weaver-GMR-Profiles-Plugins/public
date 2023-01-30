@@ -39,6 +39,17 @@ local Config = {
 
     useHolyWrath = false,
 
+    useSacredShield = true,
+    useLayOnHandsMinHP = 20,
+    useDivineShieldMinHP = 50,
+    useHandOfProtectionMinHP = 40,
+    useDivineProtectionMinHP = 10,
+    useAuraMasteryMinHP = 70,
+    useHandOfFreedomByCD = true,
+    useHolyLightNotInMelee = true,
+    useHolyLightNotInMeleeMinHP = 85,
+    useHolyLightNotInMeleeMinMana = 50,
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 
