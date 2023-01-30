@@ -15,11 +15,14 @@ local Config = {
     ---Use all bursts when they off cooldown
     useBurstAlways = true,
 
-    useTouchOfKarmaMinHP = 70,
-    useDampenHarmMinHP = 60,
+    useDampenHarmMinHP = 50,
     useFortifyingBrewMinHP = 40,
     useSpearHandStrike = true,
-    tookMasteryIntoConsideration = true,
+    useExpelHarmMinHP = 60,
+    usePurifyingBrewMinHP = 75,
+    useCelestialBrewMinHP = 60,
+    useInvokeNiuzaoMinHP = 60,
+    useHealingElixirMinHP = 85,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
