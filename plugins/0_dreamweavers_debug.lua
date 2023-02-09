@@ -1,0 +1,1 @@
+DW_AUTOLOADER_IS_DEBUG = true
