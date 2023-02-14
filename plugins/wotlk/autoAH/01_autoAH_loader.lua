@@ -1,5 +1,5 @@
 local ID = "AAH"
-local PROF_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/autoAH/90_autoAH.gmr"
+local PROF_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/autoAH/90_autoAH_base.gmr"
 
 if not Config then
     Config = {
