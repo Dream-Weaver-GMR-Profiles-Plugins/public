@@ -17,7 +17,8 @@ local Config = {
     consumeArtOfWarFlashLightIfAuraDepletedSoon = true,
 
     useConsecrations = true,
-    useConsecrationsMinEnemies = 1,
+    useConsecrationsMinEnemies = 2,
+    useConsecrationsMinMana = 60,
 
     groupCleanseModEnabled = false,
     useJudgmentType = 1, -- 1:Judgement of Light; 2:Judgement of Wisdom; 3:Judgement of Justice;
