@@ -19,10 +19,13 @@ local Config = {
     useFortifyingBrewMinHP = 40,
     useSpearHandStrike = true,
     useExpelHarmMinHP = 60,
+    usePurifyingBrew = true,
     usePurifyingBrewMinHP = 75,
     useCelestialBrewMinHP = 60,
     useInvokeNiuzaoMinHP = 60,
     useHealingElixirMinHP = 85,
+    useExplodingKeg = true,
+    useBonedustBrew = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
