@@ -26,6 +26,9 @@ local Config = {
     useHealingElixirMinHP = 85,
     useExplodingKeg = true,
     useBonedustBrew = true,
+    useBlackOxStatue = true,
+    useBlackOxStatueKeepAtDistance = 12,
+    useBlackOxStatueProvoke = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
