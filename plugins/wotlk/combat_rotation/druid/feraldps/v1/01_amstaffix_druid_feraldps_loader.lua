@@ -20,6 +20,7 @@ local Config = {
     useBearWeavingEnergyUpLimit = 75,
 
     useFaerieFire = true,
+    useMarkOfTheWildBuff = true,
 
     useCatCharge = true,
     useBearCharge = true,
