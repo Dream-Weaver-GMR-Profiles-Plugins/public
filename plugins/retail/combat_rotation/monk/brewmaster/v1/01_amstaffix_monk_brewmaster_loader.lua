@@ -10,7 +10,10 @@ local Config = {
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
     onlineLoad = true,
-    ---Character names to force load that rotation
+    ---Character names to force load that rotation, i.e.
+    ---```
+    ---  forceLoadForCharacters = {"CharacterName1, "CharacterName2"},
+    ---```
     forceLoadForCharacters = {},
     ---Use all bursts when they off cooldown
     useBurstAlways = true,
@@ -19,10 +22,16 @@ local Config = {
     useFortifyingBrewMinHP = 40,
     useSpearHandStrike = true,
     useExpelHarmMinHP = 60,
+    usePurifyingBrew = true,
     usePurifyingBrewMinHP = 75,
     useCelestialBrewMinHP = 60,
     useInvokeNiuzaoMinHP = 60,
     useHealingElixirMinHP = 85,
+    useExplodingKeg = true,
+    useBonedustBrew = true,
+    useBlackOxStatue = true,
+    useBlackOxStatueKeepAtDistance = 12,
+    useBlackOxStatueProvoke = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
