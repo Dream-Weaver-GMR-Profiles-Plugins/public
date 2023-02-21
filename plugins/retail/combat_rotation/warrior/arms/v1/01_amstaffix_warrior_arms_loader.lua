@@ -10,7 +10,10 @@ local Config = {
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
     onlineLoad = true,
-    ---Character names to force load that rotation
+    ---Character names to force load that rotation, i.e.
+    ---```
+    ---  forceLoadForCharacters = {"CharacterName1, "CharacterName2"},
+    ---```
     forceLoadForCharacters = {},
 
     useThunderClapForAoe = false,
@@ -33,7 +36,7 @@ local function printDbg(msg)
     end
 end
 
-do
+if UnitClassBase("player") == "WARRIOR" and (GetSpecialization() == 5 or GetSpecialization() == 1) then
     local msgPrefix = "[" .. ID .. "] "
     if Config.onlineLoad then
         GMR.SendHttpRequest({

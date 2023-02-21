@@ -4,6 +4,10 @@
 - tries his best to execute proper rotation according to [this guide](https://www.wowhead.com/guide/classes/druid/feral/rotation-cooldowns-pve-dps)
 - uses all spells and all talents
 - has toggleable burst mode (make `useBurstAlways = false` in `Config`) and use `/amstburst start 60` command
+- ideal snapshoting of bleeds
+- 90%+ bleedtalons uptime with moonfire+brutal slash talents
+- smart energy pooling and dumping
+- smart usage of all heals and protections spells
 
 ## Installation
 - delete previous versions!

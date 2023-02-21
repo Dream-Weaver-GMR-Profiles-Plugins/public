@@ -11,6 +11,8 @@ local Config = {
     ---Use online loading feature to get last updates
     onlineLoad = true,
 
+    useGiftOfTheNaauruMinHP = 80,
+
     useConsecrations = true,
     useConsecrationsMinEnemies = 1,
 
@@ -25,7 +27,7 @@ local Config = {
     defaultAuraToUse = 1, -- 1:Devotion Aura; 2:Retribution Aura; 3:Concentration Aura; 4:Shadow Resistance Aura; 5:Frost Resistance Aura; 6:Fire Resistance Aura
     defaultAuraChangeIfAlreadyExist = { 2, 3 }, -- 1:Devotion Aura; 2:Retribution Aura; 3:Concentration Aura; 4:Shadow Resistance Aura; 5:Frost Resistance Aura; 6:Fire Resistance Aura
     defaultBlessingToUse = 4, -- 1:Blessing of Might; 2:Blessing of Kings; 3:Blessing of Wisdom; 4:Blessing of Sanctuary;
-    defaultSealToUse = 4, -- 1:Seal of Righteousness; 2:Seal of Justice; 3:Seal of Light; 4:Seal of Wisdom; 5:Seal of Command; 6:Seal of Corruption;
+    defaultSealToUse = 4, -- 1:Seal of Righteousness; 2:Seal of Justice; 3:Seal of Light; 4:Seal of Wisdom; 5:Seal of Command; 6:Seal of Corruption/Vengeance;
     defaultSealDoNotSwitchList = { 6 }, -- 1:Seal of Righteousness; 2:Seal of Justice; 3:Seal of Light; 4:Seal of Wisdom; 5:Seal of Command; 6:Seal of Corruption;
 
     useCrusaderAuraWhileMounted = true,
@@ -39,6 +41,17 @@ local Config = {
     useAggroSpellsInGroup = false,
 
     useHolyWrath = false,
+
+    useSacredShield = true,
+    useLayOnHandsMinHP = 20,
+    useDivineShieldMinHP = 50,
+    useHandOfProtectionMinHP = 40,
+    useDivineProtectionMinHP = 10,
+    useAuraMasteryMinHP = 70,
+    useHandOfFreedomByCD = true,
+    useHolyLightNotInMelee = true,
+    useHolyLightNotInMeleeMinHP = 85,
+    useHolyLightNotInMeleeMinMana = 50,
     
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
@@ -53,7 +66,7 @@ local function printDbg(msg)
     end
 end
 
-do
+if UnitClassBase("player") == "PALADIN" then
     local msgPrefix = "[" .. ID .. "] "
     if Config.onlineLoad then
         GMR.SendHttpRequest({

@@ -11,7 +11,10 @@ local Config = {
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
     onlineLoad = true,
-    ---Character names to force load that rotation
+    ---Character names to force load that rotation, i.e.
+    ---```
+    ---  forceLoadForCharacters = {"CharacterName1, "CharacterName2"},
+    ---```
     forceLoadForCharacters = {},
 
     ---Min HP to cast Icebound Fortitude
@@ -48,6 +51,8 @@ local Config = {
     --- Using Death strike when HP < N
     useDeathStrikeMaxHp = 60,
 
+    useGhoul = true,
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 
@@ -61,7 +66,7 @@ local function printDbg(msg)
     end
 end
 
-do
+if UnitClassBase("player") == "DEATHKNIGHT" then
     local msgPrefix = "[" .. ID .. "] "
     if Config.onlineLoad then
         GMR.SendHttpRequest({

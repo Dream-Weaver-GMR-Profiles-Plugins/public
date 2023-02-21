@@ -10,8 +10,13 @@ local Config = {
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
     onlineLoad = true,
-    ---Character names to force load that rotation
+    ---Character names to force load that rotation, i.e.
+    ---```
+    ---  forceLoadForCharacters = {"CharacterName1, "CharacterName2"},
+    ---```
     forceLoadForCharacters = {},
+
+    useGiftOfTheNaauruMinHP = 80,
 
     defaultMainHandWeaponEnchant = {4, 1, 2, 3}, -- 1:flametongue; 2:frostband; 3:rockbiter; 4:windfury
     defaultOffHandWeaponEnchant = {1, 2, 3, 4}, -- 1:flametongue; 2:frostband; 3:rockbiter; 4:windfury
@@ -36,7 +41,7 @@ local function printDbg(msg)
     end
 end
 
-do
+if UnitClassBase("player") == "SHAMAN" then
     local msgPrefix = "[" .. ID .. "] "
     if Config.onlineLoad then
         GMR.SendHttpRequest({
