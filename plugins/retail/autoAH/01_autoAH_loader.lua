@@ -21,6 +21,7 @@ if not Config then
     }
 end
 
+if not IsAddOnLoaded("TradeSkillMaster") or not Config.IS_ON then return end
 
 
 local function printDbg(msg)
@@ -29,7 +30,6 @@ local function printDbg(msg)
     end
 end
 do
-    local msgPrefix = "|cffa335ee[" .. ID .. "]|r "
     GMR.SendHttpRequest({
         Url = PROF_LINK,
         Method = "Get",
@@ -37,11 +37,10 @@ do
             printDbg("AutoAH has been downloaded, now we'll try to execute it")
             GMR.RunEncryptedScript(content)
             if not EvagorasAutoAH then
-                printDbg(msgPrefix .. "AutoAH not initialized properly")
+                printDbg("AutoAH not initialized properly")
                 return
             end
             printDbg("AutoAH successfully initialized")
-            return
         end
     })
 end
