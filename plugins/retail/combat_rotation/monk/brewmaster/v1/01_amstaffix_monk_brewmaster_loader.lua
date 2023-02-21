@@ -5,11 +5,11 @@ local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profil
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
-    debug = false,
+    debug = true,
     ---Use standard CombatRotation pluggable function. Change only if you know what you are doing.
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
-    onlineLoad = true,
+    onlineLoad = false,
     ---Character names to force load that rotation, i.e.
     ---```
     ---  forceLoadForCharacters = {"CharacterName1, "CharacterName2"},
@@ -30,8 +30,11 @@ local Config = {
     useExplodingKeg = true,
     useBonedustBrew = true,
     useBlackOxStatue = true,
+    useBlackOxStatueKeepAtDistanceFeature = true,
     useBlackOxStatueKeepAtDistance = 12,
     useBlackOxStatueProvoke = true,
+    useBlackOxStatueAtSpecificPositionFeature = false,
+    useBlackOxStatueAtSpecificPosition = {3359.7976074219, -1416.1673583984, 96.498588562012},
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
