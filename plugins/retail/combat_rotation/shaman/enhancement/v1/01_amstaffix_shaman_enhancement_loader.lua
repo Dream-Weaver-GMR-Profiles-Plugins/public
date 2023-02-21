@@ -1,15 +1,15 @@
-local ID = "CR/DF>S/E"
+local ID = "CR/DF>S/Enh"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
 local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/shaman/enhancement/v1/90_amstaffix_shaman_enhancement_rotation.gmr"
 ---@type DFShamanEnhancementV1Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
-    debug = true,
+    debug = false,
     ---Use standard CombatRotation pluggable function. Change only if you know what you are doing.
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
-    onlineLoad = false,
+    onlineLoad = true,
     ---Character names to force load that rotation, i.e.
     ---```
     ---  forceLoadForCharacters = {"CharacterName1, "CharacterName2"},
@@ -17,6 +17,15 @@ local Config = {
     forceLoadForCharacters = {},
     ---Use all bursts when they off cooldown
     useBurstAlways = true,
+
+    useChainLightningMinEnemies = 2,
+    useElementalBlastMaxEnemies = 3,
+    useFireNovaWithAtLeastFireshocksDebuffs = 5,
+    useAstralShiftMinHP = 50,
+    useBloodlust = true,
+    useEarthElementalMinHP = 30,
+    useHealingStreamTotemMinHP = 90,
+    useHealingSurgeMinHP = 80,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
