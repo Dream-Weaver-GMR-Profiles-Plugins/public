@@ -1,15 +1,15 @@
-# Dragonflight > Plugin > Combat Rotation > Shaman > Enhancement
+# Dragonflight > Plugin > Combat Rotation > Shaman > Elemental
 
 ## Features
-- tries his best to execute proper rotation according to [this guide](https://www.wowhead.com/guide/classes/shaman/enhancement/rotation-cooldowns-pve-dps)
+- tries his best to execute proper rotation according to [this guide](https://www.wowhead.com/guide/classes/shaman/elemental/rotation-cooldowns-pve-dps)
 - uses all spells and all talents
 - has toggleable burst mode (make `useBurstAlways = false` in `Config`) and use `/amstburst start 60` command
 
 ## Installation
 - delete previous versions!
 - turn off all spells in Spells tab
-- download [01_amstaffix_shaman_enhancement_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/shaman/enhancement/v1/01_amstaffix_shaman_enhancement_loader.lua)
-- place downloaded file `01_amstaffix_shaman_enhancement_loader.lua` into
+- download [01_amstaffix_shaman_elemental_loader.lua](https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/shaman/elemental/v1/01_amstaffix_shaman_elemental_loader.lua)
+- place downloaded file `01_amstaffix_shaman_elemental_loader.lua` into
     - HWT: `{HWT_Dir}/addons/Dragonflight/Plugins/`
     - Tinkr: `{Tinkr_Dir}/scripts/GMR/Plugins/`
 
