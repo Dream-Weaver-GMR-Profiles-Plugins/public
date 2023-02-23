@@ -3,6 +3,8 @@
 ## Features
 - use all spells and all talents
 - smart usage of defensive spells
+- dusk and dawn 100% uptime
+- party heal
 
 ## Installation
 - delete previous versions!

@@ -17,9 +17,26 @@ local Config = {
     forceLoadForCharacters = {},
 
     useDivineTollMinEnemies = 2,
+    useDivineStormMinEnemies = 3,
+    useDivineProtectionMinHP = 70,
+    useShieldOfVengeanceMinHP = 60,
+    useConsecrationMinEnemies = 2,
+    useFlashHealUnderSelflessHealerMinHP = 80,
+    useFlashHealUnderSelflessHealerOnParty = true,
+    useWordOfGloryMinHP = 40,
+    useWordOfGloryOnParty = true,
+    useJusticarsVengeanceMinHP = 80,
+    useEyeForAnEyeMinHP = 50,
+    useFinalReckoning = true,
+    useFinalReckoningMinEnemies = 3,
+    useLayOnHandsMinHP = 20,
+    useDevotionAura = true,
+    useRetributionAura = false,
+    useBlindingLightMinEnemies = 3,
+    useBlindingLightMinHP = 70,
+    useBlessingOfProtectionMinHP = 30,
 
     useHandOfReckoning = true,
-    useDivineSteed = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
