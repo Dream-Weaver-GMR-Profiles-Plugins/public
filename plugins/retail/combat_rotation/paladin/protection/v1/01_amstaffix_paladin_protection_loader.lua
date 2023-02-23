@@ -17,11 +17,21 @@ local Config = {
     forceLoadForCharacters = {},
 
     useDivineTollMinEnemies = 2,
-
     useEyeOffTurMinEnemies = 2,
-
     useHandOfReckoning = true,
     useDivineSteed = true,
+    useWordOfGloryUnderShiningLightMinHP = 80,
+    useWordOfGloryUnderShiningLightOnParty = true,
+    useArdentDefenderMinHP = 70,
+    useLayOnHandsMinHP = 20,
+    useCleanseOnPlayer = false,
+    useDivineSteed = false,
+    useDivineSteedMinDistance = 40,
+    useDevotionAura = true,
+    useRetributionAura = false,
+    useBlindingLightMinEnemies = 3,
+    useBlindingLightMinHP = 70,
+    useBlessingOfProtectionMinHP = 30,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
