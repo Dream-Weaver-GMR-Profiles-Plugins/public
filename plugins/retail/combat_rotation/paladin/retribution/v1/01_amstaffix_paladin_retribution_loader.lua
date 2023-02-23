@@ -37,6 +37,8 @@ local Config = {
     useBlindingLightMinHP = 70,
     useBlessingOfProtectionMinHP = 30,
     useCleanseOnPlayer = false,
+    useDivineSteed = false,
+    useDivineSteedMinDistance = 40,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
