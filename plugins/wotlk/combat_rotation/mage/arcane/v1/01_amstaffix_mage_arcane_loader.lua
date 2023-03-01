@@ -17,22 +17,16 @@ local Config = {
     forceLoadForCharacters = {},
 
     useGiftOfTheNaauruMinHP = 80,
-
     minEneminesToAoe = 3,
-
     defaultArmor = {2, 1, 3, 4}, -- 1:frost-armor;2:ice-armor;3:mage-armor;4:molten-armor
-
     useManaShieldMinHpThreshold = 70,
     useManaShieldMinMpThreshold = 40,
-
     useArcanePowerAlways = true,
     useArcanePowerMinMpThreshold = 40,
-
     useArcaneBarrageOnlyWhileMoving = true,
-
     useFireBlastOnlyWhileMoving = true,
-
     useConeOfColdOnlyWhileMoving = true,
+    useArcaneIntellect = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
