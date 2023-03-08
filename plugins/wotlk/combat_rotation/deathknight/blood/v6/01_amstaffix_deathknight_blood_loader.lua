@@ -61,6 +61,8 @@ local Config = {
     useMarkOfBloodMinEnemies = 3,
     useMarkOfBloodMinHP = 70,
 
+    useMindFreeze = true,
+
     useDeathCoilOnEnemy = true,
     useDeathCoilOnEnemyMaxEnemies = 100,
 

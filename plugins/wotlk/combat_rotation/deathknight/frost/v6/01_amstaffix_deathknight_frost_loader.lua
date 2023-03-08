@@ -47,6 +47,7 @@ local Config = {
 
     useDeathCoilOnEnemy = false,
     useDeathCoilOnEnemyMaxEnemies = 1,
+    useMindFreeze = true,
 
     useCorpseExplosion = false,
     useCorpseExplosionMinEnemies = 3,

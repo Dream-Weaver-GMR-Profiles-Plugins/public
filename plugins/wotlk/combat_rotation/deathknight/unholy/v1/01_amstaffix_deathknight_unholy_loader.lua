@@ -45,6 +45,7 @@ local Config = {
     useCorpseExplosionMinEnemies = 3,
 
     useGhoulFrenzy = true,
+    useMindFreeze = true,
 
     --- should use death strike in some circumstances
     useDeathStrike = false,
