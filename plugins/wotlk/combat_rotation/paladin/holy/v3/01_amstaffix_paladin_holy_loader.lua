@@ -13,6 +13,8 @@ local Config = {
 
     useGiftOfTheNaauruMinHP = 80,
 
+    useHammerOfJusticeToInterrupt = true,
+
     groupCleanseModEnabled = true,
     useJudgmentType = 2, -- 1:Judgement of Light; 2:Judgement of Wisdom; 3:Judgement of Justice;
     useJudgmentTryToCleave = true,

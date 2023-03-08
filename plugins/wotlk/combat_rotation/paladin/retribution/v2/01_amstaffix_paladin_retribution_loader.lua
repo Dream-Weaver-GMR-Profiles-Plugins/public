@@ -13,6 +13,8 @@ local Config = {
 
     useGiftOfTheNaauruMinHP = 80,
 
+    useHammerOfJusticeToInterrupt = true,
+
     consumeArtOfWarFlashLightMinHp = 80,
     consumeArtOfWarFlashLightIfAuraDepletedSoon = true,
 

@@ -13,6 +13,8 @@ local Config = {
 
     useGiftOfTheNaauruMinHP = 80,
 
+    useHammerOfJusticeToInterrupt = true,
+
     useConsecrations = true,
     useConsecrationsMinEnemies = 1,
 
