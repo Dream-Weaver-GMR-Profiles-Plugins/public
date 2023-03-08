@@ -54,6 +54,9 @@ local Config = {
     useHolyLightNotInMelee = true,
     useHolyLightNotInMeleeMinHP = 85,
     useHolyLightNotInMeleeMinMana = 50,
+
+    useHolyLightUnderDivineShield = true,
+    useHolyLightUnderDivineShieldMinHP = 85,
     
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
