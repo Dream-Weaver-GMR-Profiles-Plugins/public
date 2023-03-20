@@ -20,6 +20,7 @@ local Config = {
 
     defaultArmor = {2, 3, 1}, -- 1:Demon Skin;2:Demon Armor;3:Fel Armor
     useCurse = {1, 2, 5, 4, 3}, -- 1:Curse of Agony;2:Curse of Doom;3:Curse of Tongues;4:Curse of Weakness;5:Curse of the Elements
+    useDemon = {4, 1, 5, 3, 2}, -- 1:Imp;2:Incubus;3:Succubus;4:Voidwalker;5:Felhunter
 
     useLifeTapToGetMpMinHPThreshold = 20,
 
