@@ -26,6 +26,7 @@ local Config = {
     useBurstAlways = true,
 
     aoeMinEnemies = 2,
+    usePetDefensiveMode = false,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
