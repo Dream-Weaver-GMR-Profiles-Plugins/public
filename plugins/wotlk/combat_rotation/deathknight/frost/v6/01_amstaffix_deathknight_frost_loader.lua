@@ -15,6 +15,7 @@ local Config = {
     ---  forceLoadForCharacters = {"CharacterName1, "CharacterName2"},
     ---```
     forceLoadForCharacters = {},
+    useBurstAlways = true,
 
     ---Min HP to cast Icebound Fortitude
     iceboundFortitudeHpUse = 50,
