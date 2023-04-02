@@ -24,6 +24,7 @@ local Config = {
 
     useLifeTapToGetMpMinHPThreshold = 20,
     useSeedOfCorruptionMinEnemies = 2,
+    useDrainLifeMinHP = 50,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
