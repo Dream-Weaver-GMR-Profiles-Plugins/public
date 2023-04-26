@@ -1,15 +1,15 @@
 local ID = "CR/DF>M/B"
 local LIB_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/wotlk/custom/00_amstlib.gmr"
 local ROTATION_LINK = "https://raw.githubusercontent.com/Dream-Weaver-GMR-Profiles-Plugins/public/master/plugins/retail/combat_rotation/monk/brewmaster/v1/90_amstaffix_monk_brewmaster_rotation.gmr"
----@type DFMonkWindwalkerV1Config
+---@type DFMonkBrewmasterV1Config
 local Config = {
     ---Toggle debug mode. Turn on, if you encounter some issues and want to deal with it, or record a video and send
     ---to author.
-    debug = true,
+    debug = false,
     ---Use standard CombatRotation pluggable function. Change only if you know what you are doing.
     useCombatRotationLauncher = true,
     ---Use online loading feature to get last updates
-    onlineLoad = false,
+    onlineLoad = true,
     ---Character names to force load that rotation, i.e.
     ---```
     ---  forceLoadForCharacters = {"CharacterName1, "CharacterName2"},
