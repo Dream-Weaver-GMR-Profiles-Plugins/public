@@ -21,6 +21,7 @@ local Config = {
     useTyphoonMinEnemies = 4,
 
     useHurricaneMinEnemies = 4,
+    useForceOfNature = true,
 
     useMarkOfTheWildBuff = true,
 
