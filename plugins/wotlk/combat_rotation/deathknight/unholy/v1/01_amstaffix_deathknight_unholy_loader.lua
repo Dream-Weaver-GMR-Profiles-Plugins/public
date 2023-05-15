@@ -25,6 +25,7 @@ local Config = {
     useBloodFillersWithBloodRunesOnly = false,
     ---Min enemies to start using Blood Boil instead off Blood/Hearth Strike
     bloodBoilMinEnemies = 3,
+    usePresenceSwitcher = true,
     ---Default presence
     --- - 1:blood;
     --- - 2:frost;
