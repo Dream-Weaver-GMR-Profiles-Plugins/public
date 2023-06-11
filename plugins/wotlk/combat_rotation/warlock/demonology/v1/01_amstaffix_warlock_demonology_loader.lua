@@ -29,6 +29,8 @@ local Config = {
     useSeedOfCorruptionMinEnemies = 2,
     useDrainSoul = true,
 
+    minSoulShards = 5,
+
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
 
