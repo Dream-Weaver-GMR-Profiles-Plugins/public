@@ -17,6 +17,7 @@ local Config = {
     forceLoadForCharacters = {},
 
     useGiftOfTheNaauruMinHP = 80,
+    useHealingWaveMinHP = 50,
 
     defaultMainHandWeaponEnchant = {4, 1, 2, 3}, -- 1:flametongue; 2:frostband; 3:rockbiter; 4:windfury
     defaultOffHandWeaponEnchant = {1, 2, 3, 4}, -- 1:flametongue; 2:frostband; 3:rockbiter; 4:windfury
