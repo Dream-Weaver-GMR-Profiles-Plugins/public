@@ -27,6 +27,7 @@ local Config = {
     useFireBlastOnlyWhileMoving = true,
     useConeOfColdOnlyWhileMoving = true,
     useArcaneIntellect = true,
+    useEvocationMinMP = 30,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
