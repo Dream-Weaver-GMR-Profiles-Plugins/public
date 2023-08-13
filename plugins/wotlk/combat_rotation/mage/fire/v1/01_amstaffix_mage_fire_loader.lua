@@ -26,6 +26,8 @@ local Config = {
     useConeOfColdOnlyWhileMoving = false,
     useArcaneIntellect = true,
     useEvocationMinMP = 30,
+    ---Use Scorch spell to apply Improved Scorch Debuff, if you have talent
+    useScorchToApplyDebuff = false,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
