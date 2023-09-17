@@ -24,6 +24,7 @@ local Config = {
 
     useFlameShockEstDurationOnTargetToStartSpread = 3,
     useBurstAlways = true,
+    useFireElemental = true,
 
     aoeMinEnemies = 2,
     usePetDefensiveMode = false,
