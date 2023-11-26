@@ -23,8 +23,7 @@ local Config = {
     useHurricaneMinEnemies = 4,
     useMarkOfTheWildBuff = true,
     useForceOfNature = true,
-
-    useMarkOfTheWildBuff = true,
+    useFaerieFire = true,
 
     useTrinket1 = false,
     useTrinket1Type = 1, -- 1:self-buff, 2:target-harmful, 3:aoe-harmful
